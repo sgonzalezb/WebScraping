@@ -1,0 +1,138 @@
+body{
+    background-attachment: fixed;
+    overflow: scroll;
+    position: relative;
+    font-family: georgia,times,serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+.container{
+    width: 85%;
+    max-width: 950px;
+    margin: 0 auto;
+    
+}
+
+.header{
+    position: fixed;
+    background: rgb(82, 82, 82);
+    opacity: 95%;
+    padding: 0rem 0;
+    left: 0;
+    top:0;
+    right: 0;
+    
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container{
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between; (SI ACTIVAMOS ESTO EL MENU VUELVE AL LADO DERECHO)*/
+
+}
+
+.logo img {
+    width: 60%;
+    height: 60%;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.navigation ul {
+    margin: 0px ;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    font-size:1.2rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.5s linear;
+    border-radius: 5px;
+    
+}
+
+.navigation ul li a:hover{
+    background: grey;
+}
+
+main{
+    display: block;
+    margin: 10rem auto;
+    text-align: center;
+}
+
+
+main.main{
+   display: table;
+}
+
+
+
+.main .container img {
+    width: 75% ;
+    max-width: 450px;
+    float:left    ;
+    margin: auto 1.2rem;
+     
+}
+
+
+    
+}
+
+
+
+.container{
+    width: 85%;
+    max-width: 950px;
+    margin: 0 auto;
+    
+}
+
+footer {
+    background: #808080;
+    padding: 3.5rem 0;
+    margin-top: 6rem ;
+    text-align: center;
+}
+
+
+
+/*A PARTIR DE AQUI CSS PARA LAS PÁGINAS DE CADA PAIS Y SUS MENUS*/
+
+table{
+    margin-bottom: 10rem;
+}
+
+.main table td{
+    background-color:grey;
+    border: 2px ;
+    height: 450px;
+    width:650px;
+    color: white;
+}
+
+
+/**/
+td.carta h1{
+    text-align: center;
+    margin-top: -55px;
+    font-size: 65px;
+
+}
+
+

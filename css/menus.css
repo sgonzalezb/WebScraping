@@ -1,0 +1,134 @@
+body{
+    position: relative;
+    background:white;
+    font-family: georgia,times,serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+.container{
+    width: 85%;
+    max-width: 950px;
+    margin: 0 auto;
+    
+}
+
+.header{
+    position: fixed;
+    background: rgb(82, 82, 82);
+    opacity: 95%;
+    padding: 0rem 0;
+    left: 0;
+    top:0;
+    right: 0;
+    
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container{
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between; (SI ACTIVAMOS ESTO EL MENU VUELVE AL LADO DERECHO)*/
+
+}
+
+.logo img {
+    width: 60%;
+    height: 60%;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.navigation ul {
+    margin: 0px ;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    font-size:1.2rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.5s linear;
+    border-radius: 5px;
+    
+}
+
+.navigation ul li a:hover{
+    background: grey;
+}
+
+main{
+    display: block;
+    margin: 10rem 8rem;
+    text-align: center;
+}
+
+
+main div.imagenes{
+   text-align: center;
+    
+}
+
+
+
+.main .container img {
+    width: 75% ;
+    max-width: 450px;
+    float:left    ;
+    margin: auto 1.2rem;
+     
+}
+
+
+    
+}
+
+
+
+.container{
+    width: 85%;
+    max-width: 950px;
+    margin: 0 auto;
+    
+}
+
+footer {
+    background: #808080;
+    padding: 3.5rem 0;
+    margin-top: 6rem ;
+    text-align: center;
+}
+
+
+/*a partir de aquí MENUS*/
+
+div.imagenes{
+    display:flex;
+    justify-content:space-between;
+    margin:4.5rem auto;
+    
+}    
+
+
+/*Esto hace que al ponerte encima de las imagenes se hacen más grandes*/
+.main .imagenes img:hover {
+    position: relative;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s;
+    padding: 5%;
+    margin:25;    
+}
+
+/*para las paginas donde van los menus*/
