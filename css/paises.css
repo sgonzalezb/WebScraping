@@ -51,6 +51,7 @@ body{
     margin: 0px ;
     padding: 0;
     list-style: none;
+    font-family: 'Modak';
 }
 
 .navigation ul li {
@@ -63,7 +64,7 @@ body{
     padding: 0.5rem 1rem;
     transition: all 0.5s linear;
     border-radius: 5px;
-    
+    font-size: 35px;
 }
 
 .navigation ul li a:hover{
@@ -122,16 +123,26 @@ table{
 
 .main table td{
     border: 2px ;
-    height: 450px;
+    height: 580px;
     width:650px;
-    color: white;
+    color:white;
+    font-family: 'Lobster';
+    line-height: 0.6rem;
 }
 .main .Supernova , .Jagoff, .Glootie{
-    opacity:0.8;
-    background-color:#720173;
+    background-image: url(../img/posiblelogo3recortao.jpg);
+    background-attachment: fixed;
     font-family:'Architects Daughter';
     font-size: 30px;
+    background-position: 200% 90%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    border: solid 15px #ffffff;
+  
 }
+
+
 
 
 /**/
@@ -140,6 +151,16 @@ table h1{
     margin-top: -55px;
     font-size: 69px;
     font-family:Architects Daughter, cursive;
+    text-decoration: underline;
+}
+
+marquee{
+    font-size: 25px;
+    background-color: #FFFFFF;
+    padding: 0.8rem;
+    font-family: 'Goldman', cursive;
+    border-radius: 30px;
+    margin: 1rem auto;
 }
 
 
