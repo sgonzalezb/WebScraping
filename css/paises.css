@@ -105,11 +105,29 @@ main.main{
     
 }
 
-footer {
-    background: #808080;
+
+.footer {
+    background-image: url(../img/fondofooter.jpg);
     padding: 3.5rem 0;
     margin-top: 6rem ;
-    text-align: center;
+    background-position: 0px 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: solid   white 5px;
+}
+
+.footer ul li {
+    display: inline-block;
+
+}
+
+footer div ul li img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: auto 5rem;
+    content: ;
+
 }
 
 

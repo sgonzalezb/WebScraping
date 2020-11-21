@@ -12,6 +12,15 @@ body{
     margin: 0;
 }
 
+marquee{
+    font-size: 25px;
+    background-color: #FFFFFF;
+    padding: 0.8rem;
+    font-family: 'Goldman', cursive;
+    border-radius: 30px;
+    margin: 1rem auto;
+}
+
 h1{
     line-height: 1.3em;
     font-size: 1.4rem;
@@ -59,6 +68,7 @@ h1{
     margin: 0px ;
     padding: 0;
     list-style: none;
+    font-family: "Modak";
 }
 
 .navigation ul li {
@@ -71,11 +81,11 @@ h1{
     padding: 0.5rem 1rem;
     transition: all 0.5s linear;
     border-radius: 5px;
-    
+    font-size: 35px;
 }
 
 .navigation ul li a:hover{
-    background:blue;
+    background:grey;
 }
 
 .main{
