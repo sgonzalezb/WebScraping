@@ -1,5 +1,5 @@
 body{
-    background-attachment: fixed;
+    background-image: url(../img/posiblefondo.jpg);
     overflow: scroll;
     position: relative;
     font-family: georgia,times,serif;
@@ -7,6 +7,8 @@ body{
     font-size: 1.2rem;
     line-height: 1.4em;
     margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container{
@@ -17,8 +19,7 @@ body{
 }
 
 .header{
-    position: fixed;
-    background: rgb(82, 82, 82);
+    background-image: url(..\img/rec.png);
     opacity: 95%;
     padding: 0rem 0;
     left: 0;
@@ -50,6 +51,7 @@ body{
     margin: 0px ;
     padding: 0;
     list-style: none;
+    font-family: 'Modak';
 }
 
 .navigation ul li {
@@ -62,7 +64,7 @@ body{
     padding: 0.5rem 1rem;
     transition: all 0.5s linear;
     border-radius: 5px;
-    
+    font-size: 35px;
 }
 
 .navigation ul li a:hover{
@@ -78,6 +80,7 @@ main{
 
 main.main{
    display: table;
+   margin: 4rem 6rem;
 }
 
 
@@ -103,36 +106,77 @@ main.main{
     
 }
 
-footer {
-    background: #808080;
-    padding: 3.5rem 0;
-    margin-top: 6rem ;
-    text-align: center;
+
+.footer {
+    background-color: white;
+    padding: 0.5rem 0;
+    margin-top: 3   rem ;
+    background-position: 0px 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: solid   white 5px;
+}
+
+.footer ul li {
+    display: inline-block;
+    text-align: center; /*HAY QUE AÑADIRLO A TODOS LOS FOOTER  */
+
+}
+
+footer div ul li img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: auto 5rem;
 }
 
 
 
-/*A PARTIR DE AQUI CSS PARA LAS PÁGINAS DE CADA PAIS Y SUS MENUS*/
+/*A PARTIR DE AQUI CSS PARA LAS PÁGINAS DE CADA MENU Y SUS MENUS*/
+
 
 table{
-    margin-bottom: 10rem;
+    margin-bottom: 6rem;
 }
 
 .main table td{
-    background-color:grey;
     border: 2px ;
-    height: 450px;
+    height: 580px;
     width:650px;
-    color: white;
+    color:white;
+    font-family: 'Lobster';
+    line-height: 2rem;
+}
+.main .tipos{
+    background-image: url(../img/posiblelogo3recortao.jpg);
+    background-attachment: fixed;
+    font-family:'Architects Daughter';
+    font-size: 30px;
+    background-position: 200% 90%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    border: solid 15px #ffffff;
 }
 
 
-/**/
-td.carta h1{
-    text-align: center;
-    margin-top: -55px;
-    font-size: 65px;
 
+
+/**/
+table h1{
+    text-align: center;
+    font-size: 69px;
+    font-family: Architects Daughter, cursive;
+    text-decoration: underline;
+}
+
+marquee{
+    font-size: 25px;
+    background-color: #FFFFFF;
+    padding: 0.8rem;
+    font-family: 'Goldman', cursive;
+    border-radius: 30px;
+    margin: 1rem auto;
 }
 
 
