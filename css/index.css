@@ -1,12 +1,24 @@
 body{
+    background-image: url(../img/940618.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
     position: relative;
-    background:white;
     font-family: georgia,times,serif;
     color: #333;
     font-size: 1.2rem;
     line-height: 1.4em;
     margin: 0;
-    
+}
+
+marquee{
+    font-size: 25px;
+    background-color: #FFFFFF;
+    padding: 0.8rem;
+    font-family: 'Goldman', cursive;
+    border-radius: 30px;
+    margin: 1rem auto;
 }
 
 h1{
@@ -24,14 +36,13 @@ h1{
 }
 
 .header{
-    position: fixed;
-    background: rgb(82, 82, 82);
+    background-size: cover;
+    background-attachment: fixed ;
     opacity: 95%;
     padding: 0rem 0;
     left: 0;
     top:0;
     right: 0;
-    
 }
 
 .header a {
@@ -57,6 +68,7 @@ h1{
     margin: 0px ;
     padding: 0;
     list-style: none;
+    font-family: "Modak";
 }
 
 .navigation ul li {
@@ -69,11 +81,11 @@ h1{
     padding: 0.5rem 1rem;
     transition: all 0.5s linear;
     border-radius: 5px;
-    
+    font-size: 35px;
 }
 
 .navigation ul li a:hover{
-    background: grey;
+    background:grey;
 }
 
 .main{
@@ -81,9 +93,21 @@ h1{
 }
 
 
+div.container:hover{
+    opacity: 100%;
+    transition: 2.5s;
+  
+}
+
+
 main div.container{
     text-align: right;
     margin: 13rem auto;
+    font-style: italic;
+    color: white;
+    background: red;
+    padding: 1.6rem;
+    opacity: 70%;
     
 }
 
@@ -112,7 +136,7 @@ main div.container{
 .main .container iframe {
 
     width: 450px;
-    height: 350px;
+    height: 300px;
     float: center;
     float: left;
     margin: auto 1.2rem;
@@ -140,8 +164,26 @@ main div.container{
 }
 
 .footer {
-    background: #f2f2f2;
+    background-image: url(../img/footer.jpeg);
     padding: 3.5rem 0;
     margin-top: 6rem ;
     text-align: center;
+    background-position: bottom ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-top: solid   white 5px;
+}
+
+.footer ul li {
+    display: inline-block;
+
+}
+
+footer div ul li img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: auto 5rem;
+    content: ;
+
 }
