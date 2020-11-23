@@ -1,11 +1,24 @@
 body{
     position: relative;
-    background:white;
+    background-image: url(../img/pruebafondomenus.jpg);
+    background-repeat: no-repeat;
     font-family: georgia,times,serif;
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
     color: #333;
     font-size: 1.2rem;
     line-height: 1.4em;
     margin: 0;
+}
+
+marquee{
+    font-size: 25px;
+    background-color: #FFFFFF;
+    padding: 0.8rem;
+    font-family: 'Goldman', cursive;
+    border-radius: 30px;
+    margin: 1rem auto;
 }
 
 .container{
@@ -16,14 +29,13 @@ body{
 }
 
 .header{
-    position: fixed;
-    background: rgb(82, 82, 82);
+    background-size: cover;
+    background-attachment: fixed ;
     opacity: 95%;
     padding: 0rem 0;
     left: 0;
     top:0;
     right: 0;
-    
 }
 
 .header a {
@@ -49,6 +61,7 @@ body{
     margin: 0px ;
     padding: 0;
     list-style: none;
+    font-family: "Modak";
 }
 
 .navigation ul li {
@@ -61,26 +74,12 @@ body{
     padding: 0.5rem 1rem;
     transition: all 0.5s linear;
     border-radius: 5px;
-    
+    font-size: 35px;
 }
 
 .navigation ul li a:hover{
     background: grey;
 }
-
-main{
-    display: block;
-    margin: 10rem 8rem;
-    text-align: center;
-}
-
-
-main div.imagenes{
-   text-align: center;
-    
-}
-
-
 
 .main .container img {
     width: 75% ;
@@ -90,12 +89,6 @@ main div.imagenes{
      
 }
 
-
-    
-}
-
-
-
 .container{
     width: 85%;
     max-width: 950px;
@@ -103,11 +96,29 @@ main div.imagenes{
     
 }
 
-footer {
-    background: #808080;
-    padding: 3.5rem 0;
-    margin-top: 6rem ;
+.footer {
+    background-color: #FFFFFF;
+    padding: 0.5rem 0;
+    margin-top: 3rem ;
     text-align: center;
+    background-position: bottom ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-top: solid   white 5px;
+}
+
+.footer ul li {
+    display: inline-block;
+
+}
+
+footer div ul li img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: auto 5rem;
+    content: ;
+
 }
 
 
@@ -115,11 +126,15 @@ footer {
 
 div.imagenes{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     margin:4.5rem auto;
-    
+    text-align: center; 
 }    
 
+div.imagenes img{
+    border-radius: 70px;
+    position: relative;
+}
 
 /*Esto hace que al ponerte encima de las imagenes se hacen más grandes*/
 .main .imagenes img:hover {
@@ -128,7 +143,14 @@ div.imagenes{
     transform: scale(1.1);
     transition: 1s;
     padding: 5%;
-    margin:25;    
+    margin:25;
 }
 
-/*para las paginas donde van los menus*/
+.main .imagenes{
+    display: flex;
+
+}
+.main .imagenes:hover{
+    
+
+}
