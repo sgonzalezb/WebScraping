@@ -103,11 +103,26 @@ main div.imagenes{
     
 }
 
-footer {
-    background: #808080;
-    padding: 3.5rem 0;
-    margin-top: 6rem ;
-    text-align: center;
+.footer {
+    background-color: white;
+    padding: 0.5rem 0;
+    margin-top: 3rem ;
+    border-top: solid grey 5px;
+}
+.footer ul li:hover {
+    text-decoration: underline;
+}
+.footer ul li {
+    display: inline-block;
+    text-align: center; 
+    margin:auto 1rem
+}
+
+footer div ul li img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: auto 3.5rem;
 }
 
 
