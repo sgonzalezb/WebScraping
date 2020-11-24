@@ -162,28 +162,24 @@ main div.container{
 
     
 }
-
 .footer {
-    background-image: url(../img/footer.jpeg);
-    padding: 3.5rem 0;
-    margin-top: 6rem ;
-    text-align: center;
-    background-position: bottom ;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-top: solid   white 5px;
+    background-color: white;
+    padding: 0.5rem 0;
+    margin-top: 3rem ;
+    border-top: solid grey 5px;
 }
-
+.footer ul li:hover {
+    text-decoration: underline;
+}
 .footer ul li {
     display: inline-block;
-
+    text-align: center; 
+    margin:auto 1rem
 }
 
 footer div ul li img{
     display: flex;
     width: 50px;
     height: 50px;
-    margin: auto 5rem;
-    content: ;
-
+    margin: auto 3.5rem;
 }
