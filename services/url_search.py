@@ -1,10 +1,8 @@
 import requests
 
-
-url = requests.get("https://sgonzalezb.github.io/Web_Scraping/menus2")
-font_code = url.text
-#print (codi_fuente) para ver el código HTML legible
-def buscador_enlaces():
+def buscador_enlaces(input):
+    url = requests.get(input)
+    font_code = url.text
     init_pos = 1846
     cont_url = 0
     list_url = []
