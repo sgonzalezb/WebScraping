@@ -1,20 +1,21 @@
-from services import list_url
 import requests
 
 
 
 ## primer enlace https://sgonzalezb.github.io/Web_Scraping/Tinkles
+link = "https://sgonzalezb.github.io/Web_Scraping/client-side-js/Tinkles.html"
+def scraper_info(link):
+    fuente = requests.get(link)
+    code = fuente.text
+    clase = 'class="texto"'
+    inicio_clase = code.find(clase) #dentro del html nos indica la posicion de las etiquetas que tienen dicha clase
+    fin_clase = code.find('>', inicio_clase)
+    fin_valor = code.find('<', fin_clase)
+    valor = code[fin_clase:fin_valor]
+    return valor
 
-def scraper_info(input):
-    code = requests.get(input)
-    font_code = code.text
-    cont_items_menus = 0
-    pos_initial = font_code.find('</header>')
-    item = ['class="name"','class="primero"','class="segundo"','class="postre"','class="description"','class="ingredients"','class="stock"','class="price"','class="rating"']
-    while cont_items_menus <= 27 :
-        cont_items_menus += 1
-        inicio_element = font_code.find(item,pos_initial)
-        final_element = font_code.find()
 
 
-    
+if __name__ == "__main__":  
+    assert scraper_info("https://sgonzalezb.github.io/Web_Scraping/client-side-js/Tinkles.html")==("Supernova")
+
