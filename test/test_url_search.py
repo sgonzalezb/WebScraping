@@ -3,4 +3,4 @@ import pytest
 
 
 def test_test():
-    assert buscador_enlaces("https://sgonzalezb.github.io/Web_Scraping/menus2") == (['https://sgonzalezb.github.io/Web_Scraping/Tinkles','https://sgonzalezb.github.io/Web_Scraping/Wizard','https://sgonzalezb.github.io/Web_Scraping/Flippy','https://sgonzalezb.github.io/Web_Scraping/Zigeriano','https://sgonzalezb.github.io/Web_Scraping/Nebulon','https://sgonzalezb.github.io/Web_Scraping/Cyborg'])
+    assert buscador_enlaces("https://sgonzalezb.github.io/Web_Scraping/index.html") == (['https://sgonzalezb.github.io/Web_Scraping/client-side-js/Tinkles','https://sgonzalezb.github.io/Web_Scraping/client-side-js/Wizard','https://sgonzalezb.github.io/Web_Scraping/client-side-js/Flippy','https://sgonzalezb.github.io/Web_Scraping/client-side-js/Zigeriano','https://sgonzalezb.github.io/Web_Scraping/client-side-js/Nebulon','https://sgonzalezb.github.io/Web_Scraping/client-side-js/Cyborg'])
