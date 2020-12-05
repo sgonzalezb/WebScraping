@@ -1,9 +1,10 @@
 import requests
 
 def buscador_enlaces(input):
+    assert (type(input == str)) ##ASSERT PARA QUE EL ENLACE DE ENTRADA SEA UN STRING
     url = requests.get(input)
     font_code = url.text
-    init_pos = 1846
+    init_pos = font_code.find('</header>')
     cont_url = 0
     list_url = []
     num_men = 6
@@ -15,6 +16,12 @@ def buscador_enlaces(input):
         init_pos = final_enlace + 1
         list_url.append(index_url)
     return list_url
+    
+
+
+
+
+    
 
 
 
