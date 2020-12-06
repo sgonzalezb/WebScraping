@@ -14,10 +14,20 @@ def scraper_info(list_url):
         inicio_clase = code.find('class="texto"',fin_valor) #Dentro del html nos indica la posición de las etiquetas que tienen dicha clase
         fin_clase = code.find('>', inicio_clase) 
         fin_valor = code.find('<', fin_clase) #Tanto en fin_valor como fin_clase lo que hacemos es buscar entre el inicio y el final de la etiqueta hmtl
-        valor = code[fin_clase+1:fin_valor] #Aquí en la variable valor almacenamos lo que hay entre la etiqueta html con la calse "texto"
-        añada_lista = out.append(valor)
+        valor = code[fin_clase+1:fin_valor] #Aquí en la variable valor almacenamos lo que hay entre la etiqueta html con la clase "texto"
+        out.append(valor)
         contador_cosas += 1
     return out
+
+
+
+
+
+    
+
+
+        
+        
 
 
 
