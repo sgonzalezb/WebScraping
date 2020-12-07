@@ -1,6 +1,6 @@
 import requests
 
-def buscador_enlaces(input):
+def buscador_enlaces(input): ##LA URL DEBE SER LA  INDEX.HTML 
     assert (type(input == str)) ##ASSERT PARA QUE EL ENLACE DE ENTRADA SEA UN STRING
     url = requests.get(input)
     font_code = url.text
@@ -16,6 +16,8 @@ def buscador_enlaces(input):
         init_pos = final_enlace + 1
         list_url.append(index_url)
     return list_url
+
+salida = buscador_enlaces(input)
     
 
 

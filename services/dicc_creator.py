@@ -1,30 +1,67 @@
-import services.scraper
+from scraper import scraper_info,importar
 
-def creator_diction(out):
+def creator_diction(importar):
     key_dic = ["Nombre","Primero","Segundo","Postre","Descripción","Ingredientes","Stock","Precio","Reviews"]
-    lista1 = []
-    lista2 =  []
-    lista3 = []
-    suma_items = 0
-    assert len(out) < 28
-    for value in out: 
-        suma_items += 1
-        if suma_items <= 9:
-            
-            lista1.append(value)#valores del primer diccionario (el primer menú de la página)
-
-        elif suma_items > 9 and suma_items <= 18:
-            lista2.append(value)#valores del segundo diccionario (el segundo menú de la página)
-            
-        elif suma_items > 18:
-            lista3.append(value)#valores del tercer menú (el tercero menú de la página)
-    primer_dict = dict(zip(key_dic,lista1))     #
-    segundo_dict = dict(zip(key_dic,lista2))    #   Intentar refactorizar este bloque de aquí
-    tercer_dict = dict(zip(key_dic,lista3))     #
-    lista_dev = [primer_dict,segundo_dict,tercer_dict]
-
+    lista = []
+    lista_dic = []
+    contador_valores = 0
+    for item in importar:
+        contador_item = 0
+        while contador_item < 1:
+            lista.append(item)
+            contador_item += 1
+            contador_valores += 1
+        if contador_valores == 9: 
+            primer_dict = dict(zip(key_dic,lista))
+            contador_valores = 0
+            lista = []
+            lista_dic.append(primer_dict)
+    return lista_dic
     
-    return lista_dev
+
+if __name__ == "__main__":
+    assert creator_diction(["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18"]) == ("")        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
 
 
 
