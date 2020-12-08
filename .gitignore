@@ -1,0 +1,6 @@
+.git
+.pytest_cache
+.vscode
+services\__pycache__
+debug.log
+
