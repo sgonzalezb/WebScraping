@@ -1,67 +1,19 @@
 
-def creator_diction(importar):
-    key_dic = ["Nombre","Primero","Segundo","Postre","Descripción","Ingredientes","Stock","Precio","Reviews"]
-    lista = []
-    lista_dic = []
-    contador_valores = 0
-    for item in importar:
+def creator_diction(list_value):
+    assert type(list_value == list)
+    key_dic = ["Nombre","Primero","Segundo","Postre","Descripción","Ingredientes","Stock","Precio","Reviews"] 
+    value_dic = []         #almacena los valores y luego creará los diccionarios a partir de esta lista             
+    list_dic = []          # almacena todos los diccionarios
+    cont_values = 0
+    for value in list_value:
         contador_item = 0
         while contador_item < 1:
-            lista.append(item)
+            value_dic.append(value)
             contador_item += 1
-            contador_valores += 1
-        if contador_valores == 9: 
-            primer_dict = dict(zip(key_dic,lista))
-            contador_valores = 0
-            lista = []
-            lista_dic.append(primer_dict)
-    return lista_dic
-    
-
-if __name__ == "__main__":
-    assert creator_diction(["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18"]) == ("")        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
+            cont_values += 1
+        if cont_values == 9: 
+            dictionary = dict(zip(key_dic,value_dic)) #crea el diccionario a partir de dos listas
+            cont_values = 0
+            value_dic = []
+            list_dic.append(dictionary)
+    return list_dic
