@@ -1,8 +1,8 @@
 import requests
 
-def buscador_enlaces(input): ##LA URL DEBE SER LA  INDEX.HTML 
-    assert (type(input == str)) ##ASSERT PARA QUE EL ENLACE DE ENTRADA SEA UN STRING
-    url = requests.get(input)
+def url_search(entrada): ##LA URL DEBE SER LA  INDEX.HTML 
+    #assert (type(input == str)) ##ASSERT PARA QUE EL ENLACE DE ENTRADA SEA UN STRING
+    url = requests.get(entrada)
     font_code = url.text
     init_pos = font_code.find('</header>')
     cont_url = 0
@@ -16,3 +16,10 @@ def buscador_enlaces(input): ##LA URL DEBE SER LA  INDEX.HTML
         init_pos = final_enlace + 1
         list_url.append(index_url)
     return list_url
+
+
+
+
+
+if __name__ == "__main__":
+    assert url_search('https://sgonzalezb.github.io/Web_Scraping/index.html') == (['https://sgonzalezb.github.io/Web_Scraping/client-side-js/Tinkles','https://sgonzalezb.github.io/Web_Scraping/client-side-js/Wizard','https://sgonzalezb.github.io/Web_Scraping/client-side-js/Flippy','https://sgonzalezb.github.io/Web_Scraping/client-side-js/Zigeriano','https://sgonzalezb.github.io/Web_Scraping/client-side-js/Nebulon','https://sgonzalezb.github.io/Web_Scraping/client-side-js/Cyborg'])

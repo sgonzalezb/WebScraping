@@ -1,4 +1,3 @@
-from scraper import scraper_info,importar
 
 def creator_diction(importar):
     key_dic = ["Nombre","Primero","Segundo","Postre","Descripción","Ingredientes","Stock","Precio","Reviews"]
