@@ -6,14 +6,15 @@ from scraper import scraper_info
 from dicc_creator import creator_diction
 from bbdd import to_mongo
 
-input = "https://sgonzalezb.github.io/Web_Scraping/index.html"
-def launch_app(input):
-    assert type(input == str)
-    list_url = url_search(input)
+link = "https://sgonzalezb.github.io/Web_Scraping/index.html"
+def launch_app(entrada):
+    list_url = url_search(entrada)
     list_value = scraper_info(list_url)
     list_dic = creator_diction(list_value)
-    mongo = to_mongo(list_dic)
-    return mongo
+    up_mongo = to_mongo(list_dic)
+    print("Completado!")
+    return up_mongo
+    
+launch_app(link)
 
-#if __name__ == "__main__":
-  # assert launch_app("https://sgonzalezb.github.io/Web_Scraping/index.html") == ("")
+  

@@ -1,8 +1,8 @@
 import requests
 
-def url_search(link): 
+def url_search(url_index): 
     assert (type(input == str)) 
-    url = requests.get(link).text   #código fuente pasado a str
+    url = requests.get(url_index).text   #código fuente pasado a str
     init_pos = url.find('</header>') # inicia la busqueda a partir de la etiqueta </header>
     cont_url = 0
     list_url = []

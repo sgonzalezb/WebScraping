@@ -1,0 +1,235 @@
+[{
+  "_id": {
+    "$oid": "5fcffcc5de0e7e7546cb8517"
+  },
+  "Nombre": "Supernova",
+  "Primero": "Locro",
+  "Segundo": "Asado",
+  "Postre": "Dulce de Leche",
+  "Descripción": "De lo más profundo del Mediterráneo a tu plato",
+  "Ingredientes": "Maíz,Carne de Cerdo,Patatas,Leche,Azúcar,Vainilla",
+  "Stock": "105 in stock",
+  "Precio": "25$",
+  "Reviews": "8.8⭐"
+},{
+  "_id": {
+    "$oid": "5fcffcc6de0e7e7546cb8518"
+  },
+  "Nombre": "Glootie",
+  "Primero": "Empanadas",
+  "Segundo": "Pollo al disco",
+  "Postre": "Chipás",
+  "Descripción": "Menú típico de la dimensión C-132.",
+  "Ingredientes": "Carne picada, verduras, pollo, maíz dulce, cebolla, legumbres",
+  "Stock": "89 in stock",
+  "Precio": "15$",
+  "Reviews": "7.5⭐"
+},{
+  "_id": {
+    "$oid": "5fcffcc6de0e7e7546cb8519"
+  },
+  "Nombre": "Jagoff",
+  "Primero": "Tacos dorados de queso y papa",
+  "Segundo": "Chicharron",
+  "Postre": "Capiratada",
+  "Descripción": "Menú procedente del lejano Oeste",
+  "Ingredientes": "Masa de Hojaldre , Carne de Cerdo, Queso , Patatas , Arroz, ojo vieja",
+  "Stock": "520 in stock",
+  "Precio": "25$",
+  "Reviews": "8.9⭐"
+},{
+  "_id": {
+    "$oid": "5fcffcc6de0e7e7546cb851a"
+  },
+  "Nombre": "Flansians",
+  "Primero": "Kao Suay",
+  "Segundo": "Brochetas de pollo satay",
+  "Postre": "Mango rice",
+  "Descripción": "Menú típico del planeta Júpiter.",
+  "Ingredientes": "Pezuña de cabra, ojo de cíclope, pollo, arroz, espécias del planeta salvaje.",
+  "Stock": "94 in stock",
+  "Precio": "25$",
+  "Reviews": "8⭐"
+},{
+  "_id": {
+    "$oid": "5fcffcc7de0e7e7546cb851b"
+  },
+  "Nombre": "Smarkians",
+  "Primero": "Tom Yam",
+  "Segundo": "Khao Pod Grong",
+  "Postre": "Rambutén",
+  "Descripción": "Menú sacado de las entrañas de Plutón.",
+  "Ingredientes": "Verduras exóticas, cola de serpiente, arroz, limón, manzana.",
+  "Stock": "109 in stock",
+  "Precio": "27$",
+  "Reviews": "7⭐"
+},{
+  "_id": {
+    "$oid": "5fcffcc7de0e7e7546cb851c"
+  },
+  "Nombre": "Fungo",
+  "Primero": "Popian",
+  "Segundo": "Son Tam",
+  "Postre": "Hang-kut",
+  "Descripción": "Menú para pupilas gustativas refinadas, de procedencia Astuariana.",
+  "Ingredientes": "Pimiento naranja, tallarines, salmón y atún del planeta Tierra, alpiste.",
+  "Stock": "69 in stock",
+  "Precio": "30$",
+  "Reviews": "9⭐"
+},{
+  "_id": {
+    "$oid": "5fcffcc7de0e7e7546cb851d"
+  },
+  "Nombre": "Krandor",
+  "Primero": "Rollitos de primavera",
+  "Segundo": "Pollo con almentras",
+  "Postre": "Dantá",
+  "Descripción": "Plato típico del planeta oriental Clasnodar.",
+  "Ingredientes": "Pollo del planeta Tierra, verduras del Amazonas, cebolla con patas, pimiento azul.",
+  "Stock": "78 in stock",
+  "Precio": "19.99$",
+  "Reviews": "6⭐"
+},{
+  "_id": {
+    "$oid": "5fcffcc7de0e7e7546cb851e"
+  },
+  "Nombre": "Beaduregard",
+  "Primero": "Arroz tres delicias",
+  "Segundo": "Sopa de aleta de tiburón",
+  "Postre": "Tanghulú",
+  "Descripción": "Menú típico del planeta Tierra del norte de EEUU.",
+  "Ingredientes": "Ojo de hipopótamo, aleta de tiburón, excrementos de rata, la mascá de centella, pelodeorto de buey.",
+  "Stock": "190 in stock",
+  "Precio": "7$",
+  "Reviews": "5⭐"
+},{
+  "_id": {
+    "$oid": "5fcffcc7de0e7e7546cb851f"
+  },
+  "Nombre": "Amfiddians",
+  "Primero": "Sopa Wan-ton",
+  "Segundo": "Fideos Chin-Chan",
+  "Postre": "Pastel de Lura",
+  "Descripción": "Menú procedente del mar oceánico de la dimensión H-328",
+  "Ingredientes": "Pelusa del bolsillo de Doraemon, alfajoles, pimiento azul, alubias blancas, pata de conejo.",
+  "Stock": "64 in stock",
+  "Precio": "17.99$",
+  "Reviews": "7.3⭐"
+},{
+  "_id": {
+    "$oid": "5fcffcc7de0e7e7546cb8520"
+  },
+  "Nombre": "Hambrosians",
+  "Primero": "Choripan",
+  "Segundo": "Hatambe arrollado",
+  "Postre": "Alfajores",
+  "Descripción": "Menú de las profundidades marinas del planeta C-170.",
+  "Ingredientes": "Maíz, cabeza reducida de zigeriano, tomate, pimiento azul y todo tipo de algas.",
+  "Stock": "80 in stock",
+  "Precio": "25$",
+  "Reviews": "9⭐"
+},{
+  "_id": {
+    "$oid": "5fcffcc7de0e7e7546cb8521"
+  },
+  "Nombre": "Klaaxzovians",
+  "Primero": "Talos de Curnitas caseras",
+  "Segundo": "Sopa de tortilla especial",
+  "Postre": "Flan de rompape",
+  "Descripción": "Del desierto del planeta Arena de la dimensión R-43.",
+  "Ingredientes": "Patas de grillo mutante, con mostaza fluorescente, entrañas de cerdo, verduras exóticas.",
+  "Stock": "89 in stock",
+  "Precio": "18$",
+  "Reviews": "7.2⭐"
+},{
+  "_id": {
+    "$oid": "5fcffcc7de0e7e7546cb8522"
+  },
+  "Nombre": "Terryfolds",
+  "Primero": "Ensalada de Frijoles",
+  "Segundo": "Pozgde rojo",
+  "Postre": "Pan de eclote",
+  "Descripción": "Menú picante del planeta Inferno de la dimensión L-98.",
+  "Ingredientes": "Hojas tropicales, frutos secos picantes, cayena, pimientos de padrón y pepinos rojos.",
+  "Stock": "65 in stock",
+  "Precio": "30$",
+  "Reviews": "9.5⭐"
+},{
+  "_id": {
+    "$oid": "5fcffcc8de0e7e7546cb8523"
+  },
+  "Nombre": "Gazorpian",
+  "Primero": "Calamares romana",
+  "Segundo": "Paella o Pami",
+  "Postre": "Gató de almendras",
+  "Descripción": "La cocina del infierno, presentada envuelta en llamas",
+  "Ingredientes": "Calamares dimensión c-135, arroz cultivado en Plutón, gato terrícola",
+  "Stock": "15 in stock",
+  "Precio": "50$",
+  "Reviews": "9.5⭐"
+},{
+  "_id": {
+    "$oid": "5fcffcc8de0e7e7546cb8524"
+  },
+  "Nombre": "Cromulons",
+  "Primero": "Gazpacho",
+  "Segundo": "Tortilla Española",
+  "Postre": "Crema Catalana",
+  "Descripción": "De España, que es la caña",
+  "Ingredientes": "Verduras de la luna, huevos de avestruz, nata de alíengena, canela en rama",
+  "Stock": "125 in stock",
+  "Precio": "15$",
+  "Reviews": "6.5⭐"
+},{
+  "_id": {
+    "$oid": "5fcffcc8de0e7e7546cb8525"
+  },
+  "Nombre": "Garblovian",
+  "Primero": "Salmorejo",
+  "Segundo": "Pulpo Gallega",
+  "Postre": "Arroz con leche",
+  "Descripción": "De lo más profundo de mi corazón.",
+  "Ingredientes": "Salmón,Pulpo Gallego,arroz vegetal.",
+  "Stock": "360 in stock",
+  "Precio": "10$",
+  "Reviews": "5.9⭐"
+},{
+  "_id": {
+    "$oid": "5fcffcc8de0e7e7546cb8526"
+  },
+  "Nombre": "Gromflomite",
+  "Primero": "Pissotto",
+  "Segundo": "Lasaña",
+  "Postre": "Pannacotta",
+  "Descripción": "De lo más exquisito de la dimensión H-49.",
+  "Ingredientes": "Laminas de lasaña, pisto,carne picada, maíz, verduras exóticas.",
+  "Stock": "81 in stock",
+  "Precio": "39$",
+  "Reviews": "6.8⭐"
+},{
+  "_id": {
+    "$oid": "5fcffcc8de0e7e7546cb8527"
+  },
+  "Nombre": "Meeseeks",
+  "Primero": "Panini",
+  "Segundo": "Ravioli",
+  "Postre": "Tiramisu",
+  "Descripción": "El plato Messianico , del planeta Kepler",
+  "Ingredientes": "Ojo de araña, pan integral, queso fundido, café",
+  "Stock": "32 in stock",
+  "Precio": "28$",
+  "Reviews": "7.3⭐"
+},{
+  "_id": {
+    "$oid": "5fcffcc8de0e7e7546cb8528"
+  },
+  "Nombre": "Plutoniano",
+  "Primero": "Ensalada Capresse",
+  "Segundo": "Pizza",
+  "Postre": "Cannoli",
+  "Descripción": "Real Hasta la muelte, brrrr",
+  "Ingredientes": "Cacho de Plutón,mostaza, masa pizza,intestino de cíclope",
+  "Stock": "169 in stock",
+  "Precio": "18$",
+  "Reviews": "7.9⭐"
+}]
