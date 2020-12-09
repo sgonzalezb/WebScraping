@@ -3,8 +3,9 @@
 #### Dado que Rick monta una gran fiesta, nos ha encargado desarrollar una página web con diferentes menús interdimensionales y además una aplicación que extraiga la informacón de dichos menús.                                Por petición de un alumno de segundo, la información extraída se alojará en una base de datos en MongoDB.
 
 
-# Lanzar Aplicación
-#### Para lanzar aplicación es necesario lanzar el archivo app.py desde la terminal de Python con el comando python app.
+# Lanzamiento Aplicación
+#### Para lanzar aplicación es necesario lanzar el archivo app.py, ya sea iniciandolo desde la interfaz gráfica o desde la terminal con el comando 
+!["Comando Lanzamiento"](client-side-js/img/comando.PNG "Comando lanzamiento")
 
 # Autores
 #### Alicia Tugores y Sergio González
