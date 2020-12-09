@@ -4,7 +4,11 @@
 
 
 # Lanzamiento Aplicación
-#### Para lanzar aplicación es necesario lanzar el archivo app.py, ya sea iniciandolo desde la interfaz gráfica o desde la terminal con el comando 
+### Para descargar las librerías
+#### Para instalar todas las librerías necesarias para ejecutar la aplicación, será necesario hacer una instalación a partir del archivo requirements.txt que contiene las librerías y sus versiones. (Es necesario tener el pip)
+!["Comando Lanzamiento"](client-side-js/img/pipinstall.png "Comando lanzamiento")
+### Para ejecutar la aplicación
+#### Para lanzar aplicación es necesario lanzar el archivo app.py, ya sea iniciandolo desde la interfaz gráfica o desde la terminal con el comando.
 !["Comando Lanzamiento"](client-side-js/img/comando.PNG "Comando lanzamiento")
 
 # Autores

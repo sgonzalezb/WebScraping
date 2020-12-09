@@ -14,5 +14,4 @@ def scraper_info(list_url):
                 end_value = code.find('<', end_class) #posición final del valor
                 value = code[end_class+1:end_value] #almacena el valor 
                 list_value.append(value) # añade a la lista el valor
-    assert (len(list_value) == (162))
     return list_value
