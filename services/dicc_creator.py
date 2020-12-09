@@ -13,6 +13,7 @@ def creator_diction(list_value):
             cont_values += 1
         if cont_values == 9: 
             dictionary = dict(zip(key_dic,value_dic)) #crea el diccionario a partir de dos listas
+            assert(len(dictionary) == 9)
             cont_values = 0
             value_dic = []
             list_dic.append(dictionary)

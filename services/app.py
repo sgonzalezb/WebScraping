@@ -14,7 +14,4 @@ def launch_app(entrada):
     up_mongo = to_mongo(list_dic)
     print("Completado!")
     return up_mongo
-    
 launch_app(link)
-
-  

@@ -11,6 +11,6 @@ def to_mongo(list_dic):
         find = colection.find_one({"Nombre":dictionary['Nombre']})   #Para no insertar documentos duplicados
         if find == None:                                              
             insert = colection.insert_one(dictionary) 
-            lista.append(insert.inserted_id)                  
+            lista.append(insert)
+            print(insert.inserted_id)               
     return lista
-    
